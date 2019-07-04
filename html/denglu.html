@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/denglu.css">
+	<script src="../js/jquery-1.11.1.js"></script>
+	<script src="../js/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+	<div class="toubu">
+		<a href="../html/home page.html"></a>
+		<a href="##">帮助</a>
+	</div>
+	<div class="zhongbu">
+		<h3>凡客 Vancl 登录
+			<span>没有账户免费<a href="../html/zhuce.html">注册</a>
+			</span>
+
+		</h3>
+		<div class="zhongbutupian"></div>
+		<div class="zhongbudenglu">
+			<div class="dengluqiehuan">
+				<ul class="tab">
+					<li class="putongdenglu"><a href="javascript:;">普通登录</a></li>
+					<li class="kuaisudenglu"><a href="javascript:;">快速登录</a></li>
+				</ul>
+			</div>
+			<div class="zhanghaomima">
+				<input type="text" placeholder="请输入用户名">
+				<input type="password" placeholder="请输入密码">
+				<div class="zhanghaomima1">
+					<a href="" class="zhaohuimima">找回密码</a>
+					<a href="" class="dengluanniu">登 录</a>
+				</div>
+			</div>
+			<div class="zhanghaomimakuaisu">
+				<input type="text" placeholder="请输入手机号">
+				<input type="text" placeholder="验证码">
+				<input type="text" placeholder="请输入手机验证码">
+				<button class="huoquyanzhengma"><a href="">获取信息验证码</a></button>
+				<img src="../img/88.jpg" alt="" class="yanzhengmatupian">
+				<a href="#" class="huanyizhang">看不清楚？换一张</a>
+				<a href="" class="zhanghaomimakuaisudenglu">登 录</a>
+			</div>
+			<div class="denglufangshi">
+				<h2>使用合作网站账号登录凡客</h2>
+				<a href="#" class="denglufangshi1"></a>
+				<a href="#" class="denglufangshi2"></a>
+				<a href="#" class="denglufangshi3"></a>
+				<a href="#" class="denglufangshi4"></a>
+				<a href="#" class="denglufangshi5"></a>
+				<a href="#" class="denglufangshi6"></a>
+			</div>
+		</div>
+	</div>
+	<div class="dibu">
+		<div class="dibu1">
+		<p>Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号 出版物经营许可证新出发京批字第直110138号</p>
+		</div>
+		<div class="dibu2">
+			<a href="" class="dibulogo1"></a>
+			<a href="" class="dibulogo2"></a>
+			<a href="" class="dibulogo3"></a>
+			<a href="" class="dibulogo4"></a>
+		</div>
+	</div>
+</body>
+<script>
+	$(".kuaisudenglu").click(function(){
+		$(".kuaisudenglu a").css('background','#b42025');
+		$(".kuaisudenglu a").css('color','#fff');
+		$(".putongdenglu a").css('background','#f5f5f5');
+		$(".putongdenglu a").css('color','#656565');
+		$(".zhanghaomima").css('display','none');
+		$(".zhanghaomimakuaisu").css('display','block');
+	});
+	$(".putongdenglu").click(function(){
+		$(".putongdenglu a").css('background','#b42025');
+		$(".putongdenglu a").css('color','#fff');
+		$(".kuaisudenglu a").css('background','#f5f5f5');
+		$(".kuaisudenglu a").css('color','#656565');
+		$(".zhanghaomimakuaisu").css('display','none');
+		$(".zhanghaomima").css('display','block');
+	})
+</script>
+</html>

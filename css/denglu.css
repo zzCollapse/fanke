@@ -1,0 +1,400 @@
+/*头部*/
+.toubu{
+	width: 1200px;
+	height: 40px;
+	padding-bottom: 15px;
+	margin: 15px auto 0;
+	border-bottom: 1px solid #7a7f89;
+	overflow: hidden;
+}
+/*头部logo*/
+.toubu a:first-child{
+	display: block;
+	width: 187px;
+	height: 50px;
+
+	background: url(../img/16.png)no-repeat;
+}
+/*头部帮助*/
+.toubu a:last-child{
+	color: #000;
+	position: absolute;
+	top: 40px;
+	right: 12%;
+	font-size: 14px;
+}
+/*中部*/
+.zhongbu{
+	width: 1200px;
+	height: 472px;
+	margin: 50px auto 10px;
+	border-bottom: 1px solid #3e3a39;
+}
+/*中部图片*/
+.zhongbutupian{
+	width:465px;
+	height: 352px;
+	position: relative;
+	top: 70px;
+	left: 145px;
+	background: url(../img/86.jpg);
+}
+/*中部登录*/
+.zhongbudenglu{
+	width: 400px;
+	height: 407px;
+	position: absolute;
+	top: 164px;
+	right: 200px;
+	border: 1px solid #ccc;
+}
+/*中部登录文字*/
+.zhongbu h3{
+	font-size: 22px;
+	color: #979797;
+	font-weight: bolder;
+	text-align: left;
+	height: 25px;
+	line-height: 25px;
+	float: right;
+	margin: 0 40px 0 0;
+	width: 400px;
+	position: relative;
+}
+/*中部登录文字span*/
+.zhongbu h3 span{
+	font-size: 14px;
+	font-weight: normal;
+	position: absolute;
+	right: 8px;
+	bottom: 0px;
+}
+/*设置注册字体和颜色*/
+.zhongbu h3 span a{
+	color: #b42025;
+	margin: 0px;
+	padding: 0px;
+}
+/*触摸注册出现下边框*/
+.zhongbu h3 span a:hover{
+	border-bottom: 1px solid #b42025;
+}
+/*登录*/
+.dengluqiehuan{
+	width: 400px;
+	height: 35px;
+	border-bottom: 1px solid #ccc;
+}
+/*登陆切换一栏 普通登录*/
+.putongdenglu a{
+	display: block;
+	width: 200px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    text-align: center;
+    background: #b42025;
+    color: #fff;
+    font-weight: bolder;
+}
+/*登陆切换一栏 快速登录*/
+.kuaisudenglu a{
+	display: block;
+	width: 200px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    text-align: center;
+    background: #f5f5f5;
+	color: #656565;
+    font-weight: bolder;
+}
+/*登录下面的边框*/
+.zhanghaomima{
+	border-bottom: 1px solid #ccc;
+	/*隐藏*/
+	display: block;
+}
+/*账号密码*/
+.zhanghaomima input{
+	height: 45px;
+    line-height: 45px;
+    color: #656565;
+    width:360px;
+    display: block;
+    text-align: left;
+    text-indent: 10px;
+    z-index: 9;
+    font-size: 14px;
+	margin:30px auto 15px;
+}
+/*找回密码*/
+.zhaohuimima{
+	display: inline;
+	color:#b42025;
+	position: relative;
+	left: 314px;
+	top: 20px;
+}
+/*登录按钮*/
+.dengluanniu{
+	display: block;
+	width: 360px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background: #b42025;
+	margin:0 auto;
+	margin-top: 30px;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+/*登录按钮触摸字体变粗*/
+.dengluanniu:hover{
+	font-weight: bold;
+}
+/*登录方式*/
+.denglufangshi{
+	width: 360px;
+	height: 77px;
+    height: auto;
+    margin: 10px auto;
+}
+/*登陆方式字体*/
+.denglufangshi h2{
+	color: #a4a4a4;
+    line-height: 12px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+/*登录方式logo1*/
+.denglufangshi1{
+	display: block;
+	width: 33px;
+	height: 33px;
+	margin-right: 10px;
+	margin-top: 5px;
+	background: url(../img/87.jpg)no-repeat;
+	float: left;
+}
+
+/*登录方式logo2*/
+.denglufangshi2{
+	display: block;
+	width: 33px;
+	height: 33px;
+	margin-right: 10px;
+	margin-top: 5px;
+	background: url(../img/87.jpg)no-repeat;
+	background-position: -147px 0px;
+	float: left;
+}
+/*登录方式logo3*/
+.denglufangshi3{
+	display: block;
+	width: 33px;
+	height: 33px;
+	margin-right: 10px;
+	margin-top: 5px;
+	background: url(../img/87.jpg)no-repeat;
+	background-position: -48px 0px;
+	float: left;
+}
+/*登录方式logo4*/
+.denglufangshi4{
+	display: block;
+	width: 33px;
+	height: 33px;
+	margin-right: 10px;
+	margin-top: 5px;
+	background: url(../img/87.jpg)no-repeat;
+	background-position: -189px 0px;
+	float: left;
+}
+/*登录方式logo5*/
+.denglufangshi5{
+	display: block;
+	width: 33px;
+	height: 33px;
+	margin-right: 10px;
+	margin-top: 5px;
+	background: url(../img/87.jpg)no-repeat;
+	background-position: -228px 0px;
+	float: left;
+}
+/*登录方式logo6*/
+.denglufangshi6{
+	display: block;
+	width: 42px;
+	height: 45px;
+	margin-right: 10px;
+	margin-top: 5px;
+	background: url(../img/87.jpg)no-repeat;
+	background-position: -93px 0px;
+	float: left;
+}
+/*账号密码快速登录*/
+.zhanghaomimakuaisu{
+	border-bottom: 1px solid #ccc;
+	/*隐藏*/
+	display: none;
+}
+/*输入手机号*/
+.zhanghaomimakuaisu input:first-child{
+	height: 45px;
+    line-height: 45px;
+    color: #656565;
+    width:249px;
+    display: block;
+    text-align: left;
+    text-indent: 10px;
+    z-index: 9;
+    font-size: 14px;
+	margin:10px 0 15px 20px;
+}
+/*输入验证码*/
+.zhanghaomimakuaisu input:nth-child(2){
+	height: 45px;
+    line-height: 45px;
+    color: #656565;
+    width:144px;
+    display: block;
+    text-align: left;
+    text-indent: 10px;
+    z-index: 9;
+    font-size: 14px;
+	margin:10px 0 15px 20px;
+}
+/*输入手机验证码 */
+.zhanghaomimakuaisu input:nth-child(3){
+	height: 45px;
+    line-height: 45px;
+    color: #656565;
+    width:360px;
+    display: block;
+    text-align: left;
+    text-indent: 10px;
+    z-index: 9;
+    font-size: 14px;
+	margin:10px 0 15px 20px;
+}
+/*获取验证码按钮*/
+.huoquyanzhengma{
+	display: block;
+	width: 97px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    background: #f5f5f5;
+    color: #b52024;
+    border: solid 1px #cbcbcb;
+    display: block;
+    float: left;
+    margin: 0 0 0 10px;
+    font-weight: bolder;
+    font-size: 10px;
+    position: absolute;
+    top: 47px;
+    right: 20px;
+}
+/*按钮里面的颜色*/
+.huoquyanzhengma a{
+	color: #b52024;
+}
+/*触摸获取验证码按钮添加下边框*/
+.huoquyanzhengma a:hover{
+	border-bottom: 1px solid #b52024;
+}
+/*验证码图片*/
+.yanzhengmatupian{
+	width: 125px;
+    height: 49px;
+    position: absolute;
+    top: 110px;
+    left: 168px;
+}
+/*换一张*/
+.huanyizhang{
+	font-size: 11px;
+	color: #000;
+	position: absolute;
+	top: 108px;
+	right: 15px;
+}
+/*换一张触摸变红加下边框*/
+.huanyizhang:hover{
+	color: red;
+	border-bottom: 1px solid red;
+}
+/*快速登录的登录按钮*/
+.zhanghaomimakuaisudenglu{
+	display: block;
+	width: 360px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background: #b42025;
+	margin:0 auto;
+	margin-top: 30px;
+	font-size: 20px;
+	color: #fff;
+	margin-bottom: 30px;
+}
+/*登录按钮触摸字体变粗*/
+.zhanghaomimakuaisudenglu:hover{
+	font-weight: bold;
+}
+/*底部*/
+.dibu{
+	width: 100%;
+}
+/*底部文字*/
+.dibu p{
+	font-size: 12px;
+	text-align: center;
+    line-height: 25px;
+    color: #3e3a39;
+    font-family: "Microsoft YaHei";
+}
+/*底部文字*/
+.dibu p:first-child{
+	margin:20px auto 20px;
+	font: 100 12px "宋体";
+	color: #999999;
+}
+/*底部logo*/
+.dibu2{
+	width: 980px;
+    margin: 0px auto 25px;
+    text-align: center;
+}
+/*底部第一个logo*/
+.dibulogo1{
+	display: block;
+	    background: url(../img/50.png) no-repeat scroll 0 -581px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 113px;
+}
+/*底部第二个logo*/
+.dibulogo2{
+	background: url(../img/50.png) no-repeat scroll 0 -629px transparent;
+    display: inline-block;
+    height: 45px;
+    width: 156px;
+}
+/*底部第三个logo*/
+.dibulogo3{
+	background: url(../img/50.png) no-repeat scroll 0 -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 96px;
+}
+/*底部第四个logo*/
+.dibulogo4{
+	background: url(../img/50.png) no-repeat scroll -97px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 101px;
+}

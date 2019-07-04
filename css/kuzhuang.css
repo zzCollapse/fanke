@@ -1,0 +1,835 @@
+/*头部背景*/
+.toubu{
+	height: 31px;
+	background:#f7f7f7;
+	border-bottom: 1px solid #ccc;
+}
+/*头部内容*/
+.denglulan{
+	width:1200px;
+	height: 31px;
+	margin: 0 auto;
+}
+/*头部所有div向右浮动且垂直居中*/
+.denglulan div{
+	float: right;
+	/*margin-left:14px;*/
+	color:#808080;
+	font-size: 12px;
+	line-height: 31px;
+}
+/*头部所有a向右浮动且垂直居中*/
+.denglulan a{
+	float: right;
+	/*margin-left:14px;*/
+	color:#808080;
+	font-size: 12px;
+	line-height: 31px;
+}
+/*微博图标*/
+.weibotubiao{
+	display: block;
+	width:20px;
+	height: 25px;
+	background: url(../img/61.jpg)no-repeat;
+	margin-top:5px;
+	margin-left: 0px;
+}
+/*微信图标*/
+.weixintubiao{
+	display: block;
+	width: 20px;
+	height: 25px;
+	background: url(../img/60.jpg)no-repeat;
+	margin-top:5px;
+	margin-left: 0px;
+}
+/*触摸微信图标出现微信二维码*/
+.weixintubiao:hover+.weixinyincang{
+	display: block;
+}
+/*微信隐藏二维码*/
+.weixinyincang{
+	width:148px;
+	height: 169px;
+	background: url(../img/62.png);
+	position:absolute;
+	top:30px;
+	right: 170px;
+	display: none;
+}
+/*网站公告*/
+.wangzhangonggao{
+	display: block;
+	width: 55px;
+	height: 18px;
+	padding-left: 25px;
+	padding-bottom: 5px;
+	background: url(../img/21.png)0 5px no-repeat;
+	margin-left: 14px;
+}
+/*网站公告触摸变红*/
+.wangzhangonggao:hover{
+	color: #B22222;
+}
+/*我的订单，注册 margin左边的距离14px*/
+.wodedingdan,.zhuce{
+	margin-left: 14px;
+}
+/*注册旁边的竖条*/
+.shutiao{
+	height: 14px;
+	width: 1px ;
+	border-left: 1px solid #808080;
+	position: absolute;
+	top: 8px;
+	right: 387px;
+}
+/*登录左右边距14px*/
+.denglu{
+	margin-right: 14px;
+	margin-left: 14px;
+}
+/*搜索栏*/
+.sousuolan{
+	width:1200px;
+	height: 62px;
+	margin:20px auto 25px auto;
+}
+/*搜索栏里面内容*/
+.sousuolanneirong{
+	width:450px;
+	height: 51px;
+	padding-top: 8px;
+	float: right;
+	overflow: hidden;
+}
+/*搜索栏*/
+.sousuolanneirongdiv1 input{
+	display: block;
+	width: 249px;
+	height: 25px;
+	padding: 0 10px;
+	float: right;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+/*搜索文字*/
+.sousuolanneironga1{
+	display: block;
+	background: url(../img/58.png);
+	background-position: -98px 0;
+	width: 49px;
+	height: 29px;
+	float: right;
+	overflow: hidden;
+}
+/*购物车*/
+.sousuolanneironga2{
+	width: 105px;
+    height: 27px;
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    line-height: 27px;
+    border: 1px solid #c1383e;
+    background: url(../img/58.png) no-repeat scroll -154px 0px;
+	margin-left: 20px;
+    float: right;
+}
+
+/*购物车隐藏*/
+.gouwucheyincang{
+	width:315px;
+	height: auto;
+	background: #fff;
+	padding: 5px;
+    border: 1px solid #b81c22;
+    position: absolute;
+    right: 159px;
+    top: 89px;
+    z-index: 1010;
+    display: none;
+}
+/*挡住购物边框*/
+.gouwucheshutiao{
+	display: block;
+	width: 106px;
+	height: 2px;
+	background: #fff;
+	position: relative;
+	top:-7px;
+	right:-214px;
+}
+/*购物车隐藏里面的最大div*/
+.gouwucheyincangneirong{
+	width: 90%;
+	height:152px;
+	margin: 0px auto;
+}
+/*购物车隐藏文字*/
+.gouwucheyincangneirong p{
+	display: block;
+	width:284px;
+	height: 30px;
+	line-height: 30px;
+    border-bottom: 1px solid #ececec;
+    font-size: 11px;
+    color: #727171;
+}
+/*购物车商品里的图片*/
+.gouwucheshangpintupian{
+	display: block;
+	width: 46px;
+	height: 44px;
+	position: absolute;
+	top:-45px;
+	right: 38px;
+	background: url(../img/89.jpg) no-repeat;
+	background-size: 46px 44px;
+
+}
+/*购物车商品里的文字*/
+.gouwucheshangpinwenzi{
+	width: 190px;
+	height: 39px;
+	position: absolute;
+	top: -42px;
+    left: 415px;
+}
+/*购物车商品里的文字*/
+.gouwucheshangpinwenzi h3{
+	display: block;
+	font-weight: normal;
+	font-size: 12px;
+}
+/*购物车商品里的文字*/
+.gouwucheshangpinwenzi h3 a{
+	display: block;
+	margin-bottom: 5px;
+}
+.gouwucheshangpinwenzi h3 a:hover{
+	color: #b81c22;
+}
+/*购物车商品里的文字*/
+.gouwucheshangpinwenzi span{
+	color: #b81c22;
+}
+/*购物车商品里的文字*/
+.gouwucheshangpinwenzi em{
+	margin-left: 8px;
+	color: #b81c22;
+}
+/*购物车隐藏里面删除*/
+.gouwucheshangpinshanchu{
+    width: 45px;
+    height: 40px;
+    color: #b81c22;
+    text-align: right;
+    line-height: 40px;
+    position:absolute;
+    top:-46px;
+    right:-180px;
+}
+/*购物车商品里的文字*/
+.gouwucheshangpingongjiwenzi{
+	display: block;
+    color: #a3a3a3;
+    font-size: 12px;
+    position: absolute;
+    top: 116px;
+    left: 26px;
+}
+/*购物车商品里的价格文字*/
+.gouwucheshangpingongjiwenzi span{
+	color: #b81c22;
+}
+/*购物车商品里的查看*/
+.gouwucheshangpinchakan{
+	display: block;
+    height: 29px;
+    line-height: 29px;
+    background: #b81c22;
+    padding: 0 10px;
+	position: absolute;
+	top: 119px;
+	right:20px;
+}
+/*查看购物车前面的竖条*/
+.gouwucheshangpinshutiao{
+	width: 284px;
+	height: 2px;
+    border-bottom: 1px solid #ececec;
+    position: absolute;
+    top:105px;
+    left: 22px;
+}
+/*购物车商品里的查看文字*/
+.gouwucheshangpinchakan a{
+	color: #fff;
+	font-size: 12px;
+}
+
+/*热门搜索一行*/
+.sousuolanneirongdiv1 ul{
+	width: 440px;
+	height: 18px;
+	position: absolute;
+	right: 214px;
+	top: 95px;
+}
+/*热门搜索文字设置*/
+.sousuolanneirongdiv1 li{
+	float: right;
+	font-size: 12px;
+	margin-left: 10px;
+	color:#727171;
+}
+.sousuolanneirongdiv1 ul li a{
+	color:#727171;
+}
+/*导航栏*/
+.daohanglan{
+	width: 1200px;
+	height: 46px;
+	margin: 0 auto;
+	margin-top: -10px;
+}
+.daohanglan li{
+	float: left;
+	text-align: center;
+}
+/*导航栏里面的所有div触摸字体变红*/
+.daohanglan ul li a:hover{
+	color: #b81c22;
+}
+/*导航栏里面所有a标签的文字颜色为#727171*/
+.daohanglan ul li a{
+	color: #727171;
+}
+/*导航栏logo图*/
+.daohanglanlogo{
+	display: block;
+	width: 185px;
+	height: 46px;
+	background:url(../img/16.png) no-repeat;
+	padding-right: 20px;
+}
+/*导航栏首页*/
+.daohanglanshouye{
+	display: block;
+	color:#333;
+	width: 99px;
+	height: 22px;
+	line-height: 70px;
+}
+/*导航栏衬衫*/
+.daohanglanchenshan,.daohanglanyurongfu,.daohanglanweiyi,.daohanglanwaitao,.daohanglanzhenzhishan,.daohanglankuzhuang,.daohanglanxie,.daohanglanjiajupeishi,.daohanglanneiyiwapin{
+	display: block;
+	color:#333;
+	width: 99px;
+	height: 22px;
+	line-height: 70px;
+}
+/*导航栏衬衫的 HOP 图*/
+.daohanglanchenshantu{
+	width: 25px;
+	height: 13px;
+	background: url(../img/10.png) no-repeat;
+	position: absolute;
+	top: 150px;
+	left: 536px;
+}
+/*导航栏衬衫竖条*/
+.daohanglanchenshanshutiao{
+	width:1px;
+	height:16px;
+	border-left: 1px solid #888;
+	position: absolute;
+	top:158px;
+	left: 473px;
+}
+/*导航栏羽绒服竖条*/
+.daohanglanyurongfushutiao{
+	width:1px;
+	height:16px;
+	border-left: 1px solid #888;
+	position: absolute;
+	top:158px;
+	left: 568px;
+}
+/*导航栏卫衣竖条*/
+.daohanglanweiyishutiao{
+	width:1px;
+	height:16px;
+	border-left: 1px solid #888;
+	position: absolute;
+	top:158px;
+	left: 673px;
+}
+/*导航栏外套竖条*/
+.daohanglanwaitaoshutiao{
+	width:1px;
+	height:16px;
+	border-left: 1px solid #888;
+	position: absolute;
+	top:158px;
+	left: 768px;
+}
+/*导航栏针织衫竖条*/
+.daohanglanzhenzhishanshutiao{
+	width:1px;
+	height:16px;
+	border-left: 1px solid #888;
+	position: absolute;
+	top:158px;
+	left: 868px;
+}
+/*导航栏裤装竖条*/
+.daohanglankuzhuangshutiao{
+	width:1px;
+	height:16px;
+	border-left: 1px solid #888;
+	position: absolute;
+	top:158px;
+	left: 968px;
+}
+/*导航栏鞋竖条*/
+.daohanglanxieshutiao{
+	width:1px;
+	height:16px;
+	border-left: 1px solid #888;
+	position: absolute;
+	top:158px;
+	left: 1068px;
+}
+/*导航栏家居配饰竖条*/
+.daohanglanjiajupeishishutiao{
+	width:1px;
+	height:16px;
+	border-left: 1px solid #888;
+	position: absolute;
+	top:158px;
+	left: 1161px;
+}
+/*导航栏内衣袜品竖条*/
+.daohanglanneiyiwapinshutiao{
+	width:1px;
+	height:16px;
+	border-left: 1px solid #888;
+	position: absolute;
+	top:158px;
+	left: 1268px;
+}
+/*导航栏衬衫下拉*/
+.daohanglanchenshanxiala{
+	width: 99px;
+	height: 0px;
+	background: #fafafa;
+	position: absolute;
+	left: 472px;
+	top: 184px;
+	z-index: 1000;
+	overflow: hidden;
+	/*display: none;*/
+}
+/*导航栏衬衫下拉红边框*/
+.daohanglanchenshanxiala1,.daohanglanyurongfuxiala1,.daohanglanweiyixiala1,.daohanglanwaitaoxiala1,.daohanglanzhenzhishanxiala1,.daohanglankuzhuangxiala1,.daohanglanxiexiala1,.daohanglanjiajupeishixiala1,.daohanglanneiyiwapinxiala1{
+	display: block;
+	height: 4px;
+	border-top: 4px solid #b81c22;
+}
+/*导航栏羽绒服下拉*/
+.daohanglanyurongfuxiala{
+	width: 99px;
+	height: 0px;
+	background: #fafafa;
+	position: absolute;
+	left: 571px;
+	top: 184px;
+	z-index: 1000;
+	overflow: hidden;
+	/*display: none;*/
+}
+/*导航栏卫衣下拉*/
+.daohanglanweiyixiala{
+	width: 99px;
+	height: 0px;
+	background: #fafafa;
+	position: absolute;
+	left: 670px;
+	top: 184px;
+	z-index: 1000;
+	overflow: hidden;
+	/*display: none;*/
+}
+/*导航栏外套下拉*/
+.daohanglanwaitaoxiala{
+	width: 99px;
+	height: 0px;
+	background: #fafafa;
+	position: absolute;
+	left: 769px;
+	top: 184px;
+	z-index: 1000;
+	overflow: hidden;
+	/*display: none;*/
+}
+/*导航栏针织衫下拉*/
+.daohanglanzhenzhishanxiala{
+	width: 99px;
+	height: 0px;
+	background: #fafafa;
+	position: absolute;
+	left: 868px;
+	top: 184px;
+	z-index: 1000;
+	overflow: hidden;
+	/*display: none;*/
+}
+/*导航栏裤装下拉*/
+.daohanglankuzhuangxiala{
+	width: 99px;
+	height: 0px;
+	background: #fafafa;
+	position: absolute;
+	left: 967px;
+	top: 184px;
+	z-index: 1000;
+	overflow: hidden;
+	/*display: none;*/
+}
+/*导航栏鞋下拉*/
+.daohanglanxiexiala{
+	width: 99px;
+	height: 0px;
+	background: #fafafa;
+	position: absolute;
+	left: 1066px;
+	top: 184px;
+	z-index: 1000;
+	overflow: hidden;
+	/*display: none;*/
+}
+/*导航栏家居配饰下拉*/
+.daohanglanjiajupeishixiala{
+	width: 99px;
+	height: 0px;
+	background: #fafafa;
+	position: absolute;
+	left: 1165px;
+	top: 184px;
+	z-index: 1000;
+	overflow: hidden;
+	/*display: none;*/
+}
+/*导航栏内衣袜品下拉*/
+.daohanglanneiyiwapinxiala{
+	width: 89px;
+	height: 0px;
+	background: #fafafa;
+	position: absolute;
+	left: 1264px;
+	top: 184px;
+	z-index: 1000;
+	overflow: hidden;
+	/*display: none;*/
+}
+/*导航栏衬衫下拉里面的文字设置*/
+.daohanglanxialawenzi{
+	display: block;
+	margin-top: 10px;
+}
+
+/*中部*/
+.zhongbu{
+	width: 1200px;
+	height: auto;
+	margin:0 auto;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+/*中部里面的所有img触摸上浮加阴影*/
+.zhongbu img:hover{
+	box-shadow:#ccc 0px 8px 20px 3px;
+	transition: 0.5s;
+    -webkit-transform: translateY(-0.15em);
+    transform: translateY(-0.15em);
+}
+
+/*中部导航栏*/
+.zhongbudaohanglan{
+	width: 1200px;
+	height: 52px;
+	background: #fbfbfb;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 10px;
+	z-index: 10000;
+	/*display: none;*/
+}
+/*中部导航栏里面的a标签*/
+.zhongbudaohanglan a{
+	display: block;
+	margin: 0px 75px 0px 20px;
+    font-family: 微软雅黑;
+    color: #676767;
+	float: left;
+    margin-right: 85px;
+    font-size: 14px;
+    line-height: 50px;
+    font-weight: bold;
+    background: #fbfbfb;
+}
+/*中部导航栏里面的a标签触摸变红*/
+.zhongbudaohanglan a:hover{
+	color:#a10000;
+}
+
+/*中部里面的所有li*/
+.zhongbu ul li{
+	width: 260px;
+	float: left;
+	position: relative;
+	background: #FFF;
+    margin: 20px 15px 45px 20px;
+}
+/*左上角NEW*/
+.zuoshangjiao{
+	border-radius: 0px 0px 15px 0px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 100;
+}
+/*右下角特惠*/
+.youxiajiaotehui{
+    position: absolute;
+    right: 0;
+    bottom: 81px;
+    background: #A10000;
+    color: #fff;
+    font-size: 15px;
+    font-family: microsoft yahei;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 5px;
+}
+/*图下文字*/
+.tuxiawenzi{
+	display: block;
+	height: 17px;
+    line-height: 17px;
+    text-align: center;
+    color: #676767;
+    font-weight: bold;
+    background: #ffffff;
+    text-align: center;
+    overflow: hidden;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.fanhuizhuye{
+	display: block;
+	width: 1200px;
+	height: 270px;
+}
+/*图下价格*/
+.tuxiajiage{
+	display: block;
+	font-size: 13px;
+    font-family: "微软雅黑";
+    color: #b80001;
+    line-height: 25px;
+    text-align: center;
+    padding: 8px;
+    text-decoration: line-through;
+}
+/*客服一栏*/
+.kefuyilan{
+	width: 1120px;
+	height:282px;
+	padding:0 40px;
+	margin:30px auto;
+    border: 1px solid #e0e0e1;
+    overflow: hidden;
+}
+/*为客服一栏的三个li添加宽高还有浮动*/
+.kefuyilan1 li{
+	width: 370px;
+    height: 138px;
+    /*border-right: 1px solid #e0e0e1;*/
+    margin:40px 0 20px;
+    float: left;
+}
+/*竖条*/
+.zaixiankefuli,.qitiantuihuoli{
+	border-right: 1px solid #e0e0e1;
+}
+/*在线客服 图标*/
+.zaixiankefu p{
+	width:42px;
+	height: 42px;
+	background:url(../img/22.png)no-repeat;
+	margin:15px auto 30px;
+}
+/*在线客服 7X9在线*/
+.zaixiankefu span{
+	display: block;
+	width:156px;
+	height: 32px;
+	margin:15px auto 0;
+	text-align: center;
+    line-height: 32px;
+    font-size: 14px;
+    background: #b81c22;
+    color: #ffffff;
+}
+/*七天退货 图标*/
+.qitiantuihuo i{
+	display: block;
+	width:42px;
+	height: 42px;
+	background:url(../img/48.png)no-repeat;
+	margin:15px auto 30px;
+}
+/*七天退货 文字*/
+.qitiantuihuo p{
+	text-align: center;
+    font-size: 14px;
+    color: #727171;
+    line-height: 26px;
+}
+/*二维码下载*/
+.erweimaxiazai p{
+	display: block;
+	width:104px;
+	height: 104px;
+	background:url(../img/5.jpg)no-repeat;
+	background-size: 104px 104px;
+	margin:10px auto 5px;
+}
+/*二维码文字*/
+.erweimaxiazai span{
+	display: block;
+	text-align: center;
+    font-size: 14px;
+    color: #727171;
+    line-height: 26px;
+}
+.erweimaxiazai span em{
+	color:#a10000;
+}
+/*客服二栏*/
+.kefuyilan2{
+	width: 1118px;
+	height:26px;
+	padding:17px 0 14px;
+	background: #f8f8f8;
+	margin:0 auto;
+	overflow: hidden;
+}
+/*客服二栏里面的所有li设置样式*/
+.kefuyilan2 li{
+	float: left;
+	padding: 0px 65px;
+    line-height: 26px;
+    border-right: 1px solid #dadadb;
+    width: auto;
+    text-align: center;
+    margin-right: 0px;
+	font-size: 12px;
+}
+/*单独设置最后一个没有竖条的li*/
+.kefuyilan2 li:last-child{
+	border-right: none;
+}
+/*a标签颜色改变*/
+.kefuyilan2 a{
+	color: #323232
+}
+/*回到顶部*/
+.huidaodingbu{
+	cursor: pointer;
+    background-image: url(../img/chenshanimg/1.png);
+    width: 25px;
+    height: 90px;
+    position: fixed;
+    right: 7px;
+    bottom: 19px;
+    display: none;
+}
+
+/*底部*/
+.dibu{
+	width: 100%;
+	border-top: 1px solid #3e3a39;
+}
+/*底部文字*/
+.dibu p{
+	font-size: 12px;
+	text-align: center;
+    line-height: 25px;
+    color: #3e3a39;
+    font-family: "Microsoft YaHei";
+}
+/*底部文字*/
+.dibu p:first-child{
+	margin-top: 10px;
+}
+/*底部文字*/
+.dibu p:last-child{
+	margin-bottom: 40px;
+}
+/*底部logo*/
+.dibu2{
+	width: 980px;
+    margin: 0px auto 25px;
+    text-align: center;
+}
+/*底部第一个logo*/
+.dibulogo1{
+	display: block;
+	    background: url(../img/50.png) no-repeat scroll 0 -581px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 113px;
+}
+/*底部第二个logo*/
+.dibulogo2{
+	background: url(../img/50.png) no-repeat scroll 0 -629px transparent;
+    display: inline-block;
+    height: 45px;
+    width: 156px;
+}
+/*底部第三个logo*/
+.dibulogo3{
+	background: url(../img/50.png) no-repeat scroll 0 -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 96px;
+}
+/*底部第四个logo*/
+.dibulogo4{
+	background: url(../img/50.png) no-repeat scroll -97px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 101px;
+}
+/*底部第五个logo*/
+.dibulogo5{
+	background: url(../img/50.png) no-repeat scroll -202px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 42px;
+}
+/*底部第六个logo*/
+.dibulogo6{
+	display: inline-block;
+	width: 120px;
+    height: 39px;
+    background: url(../img/15.jpg)no-repeat;
+    background-size: 120px 39px;
+}

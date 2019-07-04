@@ -1,0 +1,87 @@
+/*大体*/
+.dati{
+	width: 980px;
+	height: auto;
+	margin:0 auto;
+}
+/*头部*/
+.toubu{
+	width: 980px;
+	height: 39px;
+	margin:0 auto;
+	padding-top: 15px;
+	border-bottom: 1px solid #000;
+}
+/*头部logo*/
+.toubulogo{
+	display: block;
+	width:311px;
+	height: 39px;
+	background: url(../img/153.png);
+}
+/*头部帮助中心*/
+.toububangzhu{
+	display: block;
+	width: 48px;
+	height: 38px;
+	color: #000;
+	font-size: 12px;
+	float: right;
+	margin-top: -38px;
+	line-height: 38px;
+	text-align: center;
+}
+/*头部帮助中心触摸变红*/
+.toububangzhu:hover{
+	color: #a10000;
+}
+/*头部登录一栏*/
+.toubudenglu{
+	width:180px;
+	height: 38px;
+	line-height: 38px;
+	margin-top: -38px;
+	text-align: center;
+	font-size: 12px;
+	float: right;
+	margin-right: 100px;
+}
+/*头部退出登录*/
+.tuichudenglu{
+	color: #c10000;
+}
+/*头部退出登录和更换用户中间的竖条*/
+.toubushutiao{
+	display: block;
+	width: 1px;
+	height: 13px;
+	background: #000;
+	position: absolute;
+	top: 28px;
+	right: 435px;
+}
+/*头部更换用户*/
+.genghuanyonghu{
+	color: #C10000;
+	margin-left: 11px;
+}
+/*中部图片*/
+.zhongbutupian{
+	width: 540px;
+	height:42px;
+	margin-top: 5px;
+	margin-left: -4px;
+	margin-bottom: 7px;
+}
+/*中部购物车图*/
+.gouwuchetu{
+	width: 130px;
+	height: 35px;
+}
+/*中部文字*/
+.zhongbuwenzi{
+	font-size: 12px;
+}
+.zhongbuwenzi em{
+	color: #c10000;
+}
